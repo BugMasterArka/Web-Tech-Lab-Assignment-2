@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.left{
+    min-width: 25vw;
+    background-color: rgb(47, 52, 196);
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12vh;
+}
+.right{
+    min-width: 70vw;
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logo{
+    margin: 0 0 20px 0 ;
+}
+.logo img{
+    height: 15vh;
+}
+.name h1{
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+.menu{
+    padding: 50px 0 0 0;
+}
+ul{
+    list-style: none;
+    padding: 0 0 0 20px;
+}
+li{
+    margin: 20px 0 20px 0;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+li a:hover{
+    color: yellow;
+}
+li a:active{
+    color: yellow;
+}
+.intro_main{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+}
+.intro_main_header{
+    margin: -10px 0 35px 0;
+}
+.intro_main_header h2{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(47, 52, 196);
+}
+.intro_main_content p{
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+.rest{
+    display: flex;
+    padding: 29px;
+}
+.show img{
+    height: 53vh;
+}
+.ab{
+    display: flex;
+    padding: 20px 50px 0 50px;
+    flex-direction: column;
+}
+.ab_header{
+    margin: 0 0 30px;
+}
+.ab_header h2{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(47, 52, 196);
+}
+.ab_info{
+    line-height: 25px;
+    font-size: 16px;
+}
+.ab_info p{
+    font-family: 'Playfair Display', serif;
+}
+.ab_btn{
+    margin-top: 25px;
+}
+.submit{
+    width: 100px;
+    height: 45px;
+    background-color: rgb(47, 52, 196);
+    border: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
